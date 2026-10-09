@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.santodomingoseo.com/sitemap.xml
+Sitemap: https://santodomingoseo.com/sitemap.xml
 
 # === ALLOW ALL MAJOR AI CRAWLERS ===
 # (AIO / Agentic SEO — allow AI systems to index and cite this content)
