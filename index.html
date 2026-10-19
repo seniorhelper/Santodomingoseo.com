@@ -1616,6 +1616,13 @@
       .mm-panel a{display:block;padding:15px 20px;font-weight:600;font-size:16px;line-height:1.3;text-decoration:none;color:#eef0f4;border-top:1px solid rgba(255,255,255,.08)}
     }
   </style>
+<style id="brand-2026">
+header img.brand-logo{display:block;width:280px!important;height:auto!important;max-width:none!important;max-height:none!important;filter:none!important;object-fit:contain}
+img.brand-foot{display:block;width:280px!important;height:auto!important;max-width:100%!important;max-height:none!important}
+@media(max-width:768px){header img.brand-logo,img.brand-foot{width:200px!important}}
+header:has(.brand-logo){height:auto!important;min-height:var(--header-h);padding-top:6px!important;padding-bottom:6px!important}
+@media(max-width:480px){header .header-cta-btn{display:none!important}}
+</style>
 </head>
 <body>
 
@@ -1641,12 +1648,7 @@
   <!-- HEADER -->
   <header>
     <a href="/" class="header-logo" aria-label="Eye To Ad Media — Santo Domingo SEO">
-      <img
-        src="https://raw.githubusercontent.com/seniorhelper/Santodomingoseo.com/main/images/eye-to-ad-media-logo-santo-domingo.png"
-        alt="Eye To Ad Media Santo Domingo SEO Agency"
-        width="220"
-        style="width:220px;height:auto;"
-      />
+      <img class="brand-logo" src="/images/brand/eye-to-ad-media-logo.webp" alt="Eye To Ad Media Santo Domingo SEO Agency" width="560" height="174">
     </a>
     <nav class="header-nav">
       <a href="#services" data-en="Services" data-es="Servicios">Services</a>
@@ -1663,6 +1665,7 @@
     <a href="#why-us" data-en="Why Us" data-es="Por Qué Nosotros">Why Us</a>
     <a href="#geo" data-en="Service Area" data-es="Área de Servicio">Service Area</a>
     <a href="#faq">FAQ</a>
+    <a href="#contact" data-cta data-en="🚀 Free Audit" data-es="🚀 Auditoría Gratis">🚀 Free Audit</a>
   </nav>
 
 
